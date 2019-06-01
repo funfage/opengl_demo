@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第二章-入门指南", "第二章-入门指南", "{C09F00D4-B9C8-4D04-B0B9-EA9CE996BDF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第三章-基础渲染", "第三章-基础渲染", "{0847D30D-56DC-4021-912D-ADBE92299F30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter02", "..\chapter02\chapter02.vcxproj", "{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter03", "..\chapter03\chapter03.vcxproj", "{76AFF18F-676D-4BBC-9F77-4216E6C7E838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第四章-基础变换：初始向量与矩阵", "第四章-基础变换：初始向量与矩阵", "{7CE30773-442E-4ECD-8D15-8E786486174C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter04", "chapter04\chapter04.vcxproj", "{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第五章-基础纹理", "第五章-基础纹理", "{BB555C24-A49A-4675-8E44-BD1B5427AB68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter05", "chapter05\chapter05.vcxproj", "{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Debug|x64.ActiveCfg = Debug|x64
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Debug|x64.Build.0 = Debug|x64
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Debug|x86.Build.0 = Debug|Win32
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Release|x64.ActiveCfg = Release|x64
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Release|x64.Build.0 = Release|x64
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Release|x86.ActiveCfg = Release|Win32
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9}.Release|x86.Build.0 = Release|Win32
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Debug|x64.ActiveCfg = Debug|x64
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Debug|x64.Build.0 = Debug|x64
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Debug|x86.ActiveCfg = Debug|Win32
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Debug|x86.Build.0 = Debug|Win32
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Release|x64.ActiveCfg = Release|x64
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Release|x64.Build.0 = Release|x64
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Release|x86.ActiveCfg = Release|Win32
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838}.Release|x86.Build.0 = Release|Win32
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Debug|x64.ActiveCfg = Debug|x64
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Debug|x64.Build.0 = Debug|x64
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Debug|x86.Build.0 = Debug|Win32
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Release|x64.ActiveCfg = Release|x64
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Release|x64.Build.0 = Release|x64
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Release|x86.ActiveCfg = Release|Win32
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E}.Release|x86.Build.0 = Release|Win32
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Debug|x64.ActiveCfg = Debug|x64
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Debug|x64.Build.0 = Debug|x64
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Debug|x86.Build.0 = Debug|Win32
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Release|x64.ActiveCfg = Release|x64
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Release|x64.Build.0 = Release|x64
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Release|x86.ActiveCfg = Release|Win32
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD6CC50D-A435-498D-AFF1-FFF1EDF06FF9} = {C09F00D4-B9C8-4D04-B0B9-EA9CE996BDF0}
+		{76AFF18F-676D-4BBC-9F77-4216E6C7E838} = {0847D30D-56DC-4021-912D-ADBE92299F30}
+		{CD980AB0-1E01-45E8-A381-E43AC13F6E8E} = {7CE30773-442E-4ECD-8D15-8E786486174C}
+		{EE06CC16-4457-490B-A3C4-5BFBDEE9C2B3} = {BB555C24-A49A-4675-8E44-BD1B5427AB68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48EE4F1F-09B7-4E1C-A28F-EBE225CDDADA}
+	EndGlobalSection
+EndGlobal
